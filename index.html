@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol 24 Horas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/bola.png">
+    <!-- FontAwesome pra ícones -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Div pra partículas de fundo -->
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <!-- Navegação fixa -->
+        <nav class="main-nav">
+            <a href="index.html"><button>Página Inicial</button></a>
+            <a href="index2.html"><button>Bibliografia</button></a>
+            <a href="index3.html"><button>Número de Gols</button></a>
+        </nav>
+        <!-- Conteúdo principal -->
+        <div class="content-wrapper">
+            <!-- Texto de boas-vindas -->
+            <div class="FILHO1">
+                <h4><i class="fas fa-futbol"></i> Bem-vindo à página onde você vive o futebol 24 horas!</h4>
+            </div>
+            <!-- Carrossel -->
+            <div class="FILHO2">
+                <p>Os Reis do Futebol</p>
+                <div class="carousel">
+                    <img class="carousel-img active" src="/assets/aa.jpeg" alt="Reis do Futebol 1" data-caption="Momento épico do futebol">
+                    <img class="carousel-img" src="/assets/pele.jpg" alt="Pelé" data-caption="Pelé, o Rei do Futebol">
+                    <img class="carousel-img" src="/assets/ronaldo.jpeg" alt="Ronaldo" data-caption="Ronaldo Fenômeno em ação">
+                    <img class="carousel-img" src="/assets/r9.jpg" alt="R9" data-caption="R9 dominando a bola">
+                    <img class="carousel-img" src="/assets/cr7.jpg" alt="CR7" data-caption="Cristiano Ronaldo comemorando">
+                    <img class="carousel-img" src="/assets/messi.jpg" alt="Messi" data-caption="Messi driblando defesas">
+                    <img class="carousel-img" src="/assets/ney.jpg" alt="Neymar" data-caption="Neymar com suas jogadas mágicas">
+                    <button class="carousel-prev">◄</button>
+                    <button class="carousel-next">►</button>
+                    <div class="carousel-caption"></div>
+                    <div class="carousel-dots"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Linkagem para os Gols -->
+        <div class="cta">
+            <a href="index3.html" class="cta-btn">Veja os Gols dos Craques!</a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
